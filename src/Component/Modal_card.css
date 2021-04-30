@@ -1,0 +1,49 @@
+.modal_card {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+}
+
+.modal_card > label {
+  margin-bottom: 5px;
+}
+
+.modal_card > input {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.modal_card > input::selection {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.modal_card > img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: 'hidden';
+  border: 1px solid lightslategray;
+  width: 50%;
+}
+
+.modal_card > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+}
+
+.modal_card > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
